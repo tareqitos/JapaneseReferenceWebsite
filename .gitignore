@@ -1,2 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
 
-test.html
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
