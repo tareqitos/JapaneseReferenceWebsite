@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="dist/script.js" defer></script>
     <title>Yame Dame</title>
 </head>
 
@@ -13,12 +13,15 @@
     <header>
 
     </header>
-    <form class="form">
-        <label for="input-field">Search</label>
-        <input id="input-field" type="text" placeholder="Search resources..">
-        <!-- <button type="submit" id="submit" class="btn btn-submit">Submit</button> -->
-    </form>
+    
     <main>
+        <div class="form-container">
+            <form method="GET" class="form">
+                <label for="input-field">Search</label>
+                <input id="input-field" type="text" placeholder="Search resources..">
+                <button type="submit" id="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </div>
         <div class="links-container">
         </div>
     </main>

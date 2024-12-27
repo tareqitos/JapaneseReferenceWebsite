@@ -12,7 +12,6 @@ const fetchAndInitializeLinks = async () => {
         console.error("Error: " + err);
     }
 };
-fetchAndInitializeLinks();
 const generateLinks = () => {
     links_container.innerHTML = '';
     let categories = [];
@@ -35,9 +34,11 @@ const updateLinks = (filtered_links) => {
         link_item_container.append(link_item, link_desc);
     });
 };
+const header = document.querySelector('header');
 const form = document.querySelector('.form');
 const input_field = document.getElementById("input-field");
 const submit_button = document.querySelector(".btn");
+form.addEventListener("submit", (event) => { event.preventDefault(); });
 input_field.addEventListener("input", async () => {
     filterLinksByQuery();
     function filterLinksByQuery() {
@@ -47,5 +48,12 @@ input_field.addEventListener("input", async () => {
             return link.name.toLowerCase().match(query.toLowerCase());
         });
         updateLinks(filtered_links);
+        if (filtered_links.length === 0) {
+            const empty_list_message = document.createElement("p");
+            empty_list_message.classList.add('empty-list-message');
+            empty_list_message.innerHTML = 'No results for ' + query;
+            links_container.appendChild(empty_list_message);
+        }
     }
 });
+fetchAndInitializeLinks();
