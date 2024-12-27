@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "name": "10ten Japanese Reader",
+    "description": "Enhance your Japanese reading with this translating browser extension.",
+    "link": "https://github.com/birchill/10ten-ja-reader/",
+    "category": "beginner"
+  },
+  {
+    "id": 2,
+    "name": "Anki",
+    "description": "Ace any subject with this powerful flashcard app.",
+    "link": "https://apps.ankiweb.net/",
+    "category": "beginner"
+  },
+  {
+    "id": 3,
+    "name": "Irodori Japanese Textbook",
+    "description": "Master daily Japanese communication with this resource.",
+    "link": "https://www.irodori.jpf.go.jp/en/index.html",
+    "category": "beginner"
+  },
+  {
+    "id": 4,
+    "name": "Kurumi Kanji Search",
+    "description": "Find kanji readings and meanings easily.",
+    "link": "https://kurumi.com/jp/kjbh/?k=%E6%9C%AC",
+    "category": "beginner"
+  },
+  {
+    "id": 5,
+    "name": "Kanji Jump",
+    "description": "Explore kanji by radicals and structure.",
+    "link": "https://www.kanjijump.com/browse/atomic",
+    "category": "beginner"
+  },
+  {
+    "id": 6,
+    "name": "Guide to Japanese",
+    "description": "Your go-to guide for Japanese grammar and basics.",
+    "link": "https://guidetojapanese.org/learn/",
+    "category": "beginner"
+  },
+  {
+    "id": 1,
+    "name": "10ten Japanese Reader",
+    "description": "Enhance your Japanese reading with this translating browser extension.",
+    "link": "https://github.com/birchill/10ten-ja-reader/",
+    "category": "dictionary"
+  },
+  {
+    "id": 2,
+    "name": "DeepL Translator",
+    "description": "Accurate translations between Japanese and other languages.",
+    "link": "https://www.deepl.com/en/translator#",
+    "category": "dictionary"
+  },
+  {
+    "id": 3,
+    "name": "GeekyDic",
+    "description": "User-friendly online Japanese dictionary.",
+    "link": "https://emilekroeger.github.io/geekydic/app/index.html#/",
+    "category": "dictionary"
+  },
+  {
+    "id": 4,
+    "name": "JLect",
+    "description": "Explore Japanese dialects and regional vocabulary.",
+    "link": "https://www.jlect.com/",
+    "category": "dictionary"
+  },
+  {
+    "id": 5,
+    "name": "Jisho",
+    "description": "Powerful Japanese-English dictionary with detailed explanations.",
+    "link": "http://www.jisho.org/",
+    "category": "dictionary"
+  },
+  {
+    "id": 6,
+    "name": "Jotoba",
+    "description": "Multilingual Japanese dictionary with context.",
+    "link": "https://jotoba.de/",
+    "category": "dictionary"
+  },
+  {
+    "id": 7,
+    "name": "Kanjisho",
+    "description": "Kanji-focused dictionary with readings and stroke order.",
+    "link": "https://www.kanjisho.com/",
+    "category": "dictionary"
+  },
+  {
+    "id": 8,
+    "name": "Jisho (Hlorenzi)",
+    "description": "Alternative Jisho interface with added features.",
+    "link": "https://jisho.hlorenzi.com/",
+    "category": "dictionary"
+  },
+  {
+    "id": 9,
+    "name": "Onomato Project",
+    "description": "Explore Japanese onomatopoeia with examples.",
+    "link": "https://onomatoproject.com/",
+    "category": "dictionary"
+  },
+  {
+    "id": 10,
+    "name": "PokeJisho",
+    "description": "Pokémon-themed Japanese-English dictionary.",
+    "link": "https://www.pokejisho.com/en/jisho/",
+    "category": "dictionary"
+  },
+  {
+    "id": 11,
+    "name": "Takoboto",
+    "description": "Offline Japanese-English dictionary with kanji lookup.",
+    "link": "https://takoboto.jp/",
+    "category": "dictionary"
+  },
+  {
+    "id": 12,
+    "name": "Weblio Thesaurus",
+    "description": "Find synonyms and related words in Japanese.",
+    "link": "https://thesaurus.weblio.jp/",
+    "category": "dictionary"
+  },
+  {
+    "id": 13,
+    "name": "Yomitan",
+    "description": "Translate Japanese text on webpages easily.",
+    "link": "https://github.com/themoeway/yomitan",
+    "category": "dictionary"
+  },
+  {
+    "id": 14,
+    "name": "Goo Dictionary",
+    "description": "Comprehensive Japanese dictionary with examples.",
+    "link": "https://dictionary.goo.ne.jp/",
+    "category": "dictionary"
+  },
+  {
+    "id": 15,
+    "name": "Kotobank",
+    "description": "Japanese dictionary aggregator with multiple sources.",
+    "link": "https://kotobank.jp/",
+    "category": "dictionary"
+  },
+  {
+    "id": 16,
+    "name": "Jitenon Kanji Dictionary",
+    "description": "Kanji dictionary with detailed character breakdowns.",
+    "link": "https://kanji.jitenon.jp/",
+    "category": "dictionary"
+  },
+  {
+    "id": 1,
+    "name": "Edewakaru",
+    "description": "Detailed explanations of Japanese grammar points.",
+    "link": "https://www.edewakaru.com/",
+    "category": "grammar"
+  },
+  {
+    "id": 2,
+    "name": "DJT Grammar Guide",
+    "description": "Extensive guide covering Japanese grammar in depth.",
+    "link": "https://djtarchive.neocities.org/bunpou/full_day",
+    "category": "grammar"
+  },
+  {
+    "id": 3,
+    "name": "Tanos JLPT Resources",
+    "description": "Grammar lists and practice materials for the JLPT.",
+    "link": "http://www.tanos.co.uk/jlpt/",
+    "category": "grammar"
+  },
+  {
+    "id": 4,
+    "name": "JLPT Grammar List",
+    "description": "Comprehensive list of JLPT grammar points.",
+    "link": "https://jlptgrammarlist.neocities.org/",
+    "category": "grammar"
+  },
+  {
+    "id": 5,
+    "name": "Kanji-Link",
+    "description": "Learn Japanese grammar and kanji with quizzes.",
+    "link": "https://www.kanji-link.com/fr/#",
+    "category": "grammar"
+  },
+  {
+    "id": 6,
+    "name": "Maggie Sensei",
+    "description": "Friendly lessons on Japanese grammar points.",
+    "link": "https://maggiesensei.com/",
+    "category": "grammar"
+  },
+  {
+    "id": 7,
+    "name": "Minato JF",
+    "description": "Online courses and resources, including grammar lessons.",
+    "link": "https://minato-jf.jp/",
+    "category": "grammar"
+  },
+  {
+    "id": 8,
+    "name": "Guide to Japanese",
+    "description": "Your go-to guide for Japanese grammar and basics.",
+    "link": "https://guidetojapanese.org/learn/",
+    "category": "grammar"
+  },
+  {
+    "id": 9,
+    "name": "Sakubi",
+    "description": "Minimalist guide to essential Japanese grammar.",
+    "link": "https://sakubi.neocities.org/",
+    "category": "grammar"
+  },
+  {
+    "id": 10,
+    "name": "IMABI",
+    "description": "Detailed Japanese grammar lessons for all levels.",
+    "link": "https://www.imabi.org/",
+    "category": "grammar"
+  },
+  {
+    "id": 11,
+    "name": "Nihongo no Sensei",
+    "description": "Grammar explanations and practice for JLPT N4 and N5.",
+    "link": "https://nihongonosensei.net/?page_id=10246#linkn4n5",
+    "category": "grammar"
+  },
+  {
+    "id": 1,
+    "name": "Shared Anki Decks",
+    "description": "Anki decks for Japanese vocabulary and kanji.",
+    "link": "https://ankiweb.net/shared/info/457148655?cb=1717343711197",
+    "category": "vocabulary"
+  },
+  {
+    "id": 2,
+    "name": "Bret Mayer's Kanji Resource",
+    "description": "Kanji resources for structured practice and lists.",
+    "link": "http://www.bretmayer.com/kanji.html",
+    "category": "vocabulary"
+  },
+  {
+    "id": 3,
+    "name": "Genkoyoushi Paper Generator",
+    "description": "Create manuscript paper for kanji practice.",
+    "link": "https://www.incompetech.com/graphpaper/genkoyoushi/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 4,
+    "name": "Hinoki Project",
+    "description": "Computational linguistics and vocabulary learning.",
+    "link": "https://hinoki-project.org/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 5,
+    "name": "Japanese Graph",
+    "description": "Practice kanji and vocabulary with visualizations.",
+    "link": "https://japanesegraph.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 6,
+    "name": "Wikibooks Linguistics Vocabulary",
+    "description": "Japanese vocabulary list for linguistics terms.",
+    "link": "https://en.m.wikibooks.org/wiki/Japanese/Vocabulary/Linguistics",
+    "category": "vocabulary"
+  },
+  {
+    "id": 7,
+    "name": "Kurumi Kanji Search",
+    "description": "Kanji search tool to build vocabulary.",
+    "link": "https://kurumi.com/jp/kjbh/?k=%E6%9C%AC",
+    "category": "vocabulary"
+  },
+  {
+    "id": 8,
+    "name": "Koohii Kanji Review",
+    "description": "Community-driven kanji and vocabulary learning.",
+    "link": "https://kanji.koohii.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 9,
+    "name": "Kanji Practice",
+    "description": "Interactive platform for kanji and vocabulary.",
+    "link": "https://kanjipractice.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 10,
+    "name": "Kanji by Stroke Order",
+    "description": "Learn kanji stroke order through writing practice.",
+    "link": "https://kanji.sljfaq.org/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 11,
+    "name": "KotobaBot",
+    "description": "Chatbot for practicing Japanese vocabulary.",
+    "link": "https://kotobaweb.com/bot",
+    "category": "vocabulary"
+  },
+  {
+    "id": 12,
+    "name": "Niai - Similar Vocabulary",
+    "description": "Explore similar Japanese words.",
+    "link": "https://niai.mrahhal.net/similar",
+    "category": "vocabulary"
+  },
+  {
+    "id": 13,
+    "name": "WaniKani",
+    "description": "Learn kanji and vocabulary with mnemonics.",
+    "link": "https://www.wanikani.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 14,
+    "name": "Kotowaza",
+    "description": "Learn Japanese proverbs and cultural insights.",
+    "link": "https://kotowaza.co.uk/index.php",
+    "category": "vocabulary"
+  },
+  {
+    "id": 15,
+    "name": "Mainichi Kanji",
+    "description": "Daily kanji practice to build vocabulary.",
+    "link": "https://mainichikanji.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 16,
+    "name": "Yomikatawa",
+    "description": "Learn Japanese vocabulary and kanji readings.",
+    "link": "https://yomikatawa.com/",
+    "category": "vocabulary"
+  },
+  {
+    "id": 17,
+    "name": "Kanjipedia",
+    "description": "Comprehensive kanji dictionary with examples.",
+    "link": "https://www.kanjipedia.jp/howto/about.html",
+    "category": "vocabulary"
+  },
+  {
+    "id": 18,
+    "name": "Kotoba no Gakko",
+    "description": "Japanese vocabulary acquisition and insights.",
+    "link": "https://site.kotobanogakko.com/special/",
+    "category": "vocabulary"
+  }
+]

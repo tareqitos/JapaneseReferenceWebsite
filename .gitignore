@@ -11,6 +11,7 @@ yarn-error.log*
 # OS generated files
 .DS_Store
 Thumbs.db
+.htaccess
 
 # IDEs and editors
 .vscode/
@@ -37,3 +38,7 @@ jspm_packages/
 *.tmp
 *.orig
 *.rej
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.json
