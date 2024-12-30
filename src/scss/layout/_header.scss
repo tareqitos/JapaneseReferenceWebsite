@@ -27,18 +27,40 @@ header {
         background-color: #c93d1a;
     }
 
-    
+    .header-right-side {
+        @include flex-center;
+        gap: 20px;
+
+        hr {
+            height: 30px;
+            border: none;
+            border-left: 1px solid rgba($text-primary-color, 0.4);
+        }
+
+        .socials {
+            @include flex-row;
+            gap: 10px;
+            a {
+                @include links-base-format;
+                @include font-base-format;
+                font-size: 1.5em;
+                color: rgba($text-primary-color, 0.7);
+            }
+        }
+    }
 
     input {
         color: $text-primary-color;
         padding: 10px;
         border: none;
         border-radius: 5px;
-        width: 300px;
+        width: 20vw;
         background-color: $background-color;
+        transition: all .2s ease;
 
         &:focus {
             outline: 1px solid rgba($text-primary-color, 0.4);
+            width: 30vw;
         }
     }
 }
