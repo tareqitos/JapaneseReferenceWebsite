@@ -1,0 +1,129 @@
+.anchor {
+    position: relative;
+    bottom: 200px
+}
+
+
+.sidebar-main {
+    @include flex-column;
+    position: relative;
+    transition: transform .25s ease;
+}
+
+.navbar {
+    padding: 20px 40px;
+    border-radius: 10px;
+
+    position: sticky;
+    top: 20px;
+
+    @include flex-row;
+    gap: 10px;
+
+    .close {
+        display: none;
+    }
+
+    hr {
+        opacity: .2;
+        height: 100%
+    }
+}
+
+.navbar-list {
+    line-height: 2.5;
+    list-style-type: none;
+    position: relative;
+}
+
+
+.navbar-item .active a {
+    color: $text-primary-color;
+}
+
+.navbar-item {
+
+    a {
+        @include links-base-format;
+        color: rgba($text-primary-color, 0.2);
+        position: relative;
+
+        transition: all .2s ease;
+
+
+        &.active {
+            color: $text-primary-color;
+
+            &::before {
+                content: '';
+                width: 2px;
+                position: absolute;
+                height: 20px;
+                background-color: rgb(255, 255, 255);
+                left: -12px;
+                border-radius: 5px;
+                top: 0;
+            }
+        }
+    }
+}
+
+// MODAL
+.sidebar-btn-container {
+    display: none;
+    padding: $sidebar-container-side-padding;
+}
+
+.sidebar-btn {
+    @include font-base-format(.9em, 100, 1.5);
+    right: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: rgba($text-primary-color, 0.7);
+    background-color: $components-background-color;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .sidebar-btn-container {
+        display: block;
+    }
+
+    .sidebar-main {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transform: translateX(100%);
+
+        &.active {
+            transform: translateX(0);
+        }
+    }
+
+    .navbar {
+        background-color: $components-background-color;
+        height: 100vh;
+        border-radius: unset;
+        border-left: 1px solid rgba($text-primary-color, 0.1);
+        align-items: unset;
+        z-index: 100;
+        width: 300px;
+        top: 0;
+
+        .close {
+            display: block;
+            order: 1;
+            position: absolute;
+            top: 20px;
+        }
+
+        hr {
+            opacity: .2;
+            height: 23%
+        }
+    }
+
+
+}

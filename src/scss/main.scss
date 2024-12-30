@@ -1,0 +1,92 @@
+@import 'base/variables';
+@import 'base/base';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+
+main {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: $main-side-padding;
+}
+
+.resources {
+    flex: 2;
+
+    @media screen and (max-width: 1200px) {
+        padding-left: 0;
+    }
+}
+
+.resources-title {
+    @include font-base-format(1.5rem, 400, 1.5);
+    margin-bottom: 30px;
+}
+
+.links-container {
+    @include flex-column;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 30px;
+
+    .category-title {
+        @include font-base-format(1.2rem, 400, 1.5);
+        margin-bottom: 10px;
+    }
+
+    .link-list {
+        @include font-base-format(1.1rem, 400, 2.2);
+        color: rgba($text-primary-color, 0.7);
+        letter-spacing: .5px;
+        padding: 30px;
+        border-radius: 10px;
+        list-style: none;
+        background-color: $components-background-color;
+    }
+}
+
+.link-item-container {
+    transition: color .15s ease;
+    
+    &:hover i {
+        color: white;
+        text-shadow: 0 0 10px white;
+    }
+
+    i {
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+    @each $icon, $color in (
+        fa-flag-checkered: $beginner-color,
+        fa-book: $dictionary-color,
+        fa-spell-check: $grammar-color,
+        fa-language: $vocabulary-color,
+        fa-book-open: $reading-color,
+        fa-bookmark: $miscellaneous-color,
+        fa-microchip: $app-color
+    ) {
+        .#{$icon} {
+            color: $color;
+            text-shadow: 0 0 0px $color;
+        }
+    }
+}
+
+.link-item {
+    @include links-base-format;
+    transition: color .15s ease;
+
+    &:hover {
+        color: white;
+    }
+}
+

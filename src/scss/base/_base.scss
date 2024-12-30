@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: $text-primary-color;
+    background-color: $background-color;
+    font-family: $primary-font;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    @include flex-column;
+    height: 100vh;
+}

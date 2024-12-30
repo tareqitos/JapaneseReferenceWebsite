@@ -1,0 +1,35 @@
+@mixin links-base-format{
+    color: $link-primary-color;
+    text-decoration: none;
+}
+
+@mixin font-base-format( $font-size: 1rem, $font-weight: 400, $line-height: 1.5){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin padding($top: 0, $right: 0, $bottom: 0, $left: 0){
+    padding: $top $right $bottom $left;
+}

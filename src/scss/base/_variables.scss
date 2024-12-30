@@ -1,0 +1,12 @@
+@import '../themes/colors';
+@import '../themes/fonts';
+@import '../base/mixins';
+
+$primary-font: 'Roboto', sans-serif;
+$title-font: 'Mochiy Pop P One', serif;
+
+$contentWidth: 1200px;
+
+$header-footer-side-padding: 20px max(2rem, 50vw - $contentWidth / 2);
+$main-side-padding: 50px max(2rem, 50vw - $contentWidth / 2);
+$sidebar-container-side-padding: 5px max(2rem, 50vw - $contentWidth / 2);

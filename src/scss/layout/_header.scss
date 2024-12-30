@@ -1,0 +1,44 @@
+header {
+    background-color: $components-background-color;
+    padding: $header-footer-side-padding;
+    @include flex-space-between;
+    align-items: center;
+
+    .title {
+        a {
+            @include links-base-format;
+            @include font-base-format;
+            font-family: $title-font;
+            font-size: 1.2em;
+            color: $text-primary-color;
+
+            @include flex-center;
+            gap: 10px;
+        }
+    }
+
+    .logo {
+        display: inline-block;
+        margin-bottom: 3px;
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        background-color: #c93d1a;
+    }
+
+    
+
+    input {
+        color: $text-primary-color;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 300px;
+        background-color: $background-color;
+
+        &:focus {
+            outline: 1px solid rgba($text-primary-color, 0.4);
+        }
+    }
+}
