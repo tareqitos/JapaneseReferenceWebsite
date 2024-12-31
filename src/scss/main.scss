@@ -24,7 +24,7 @@ main {
 }
 
 .resources-hr {
-    color: rgba($text-primary-color, 0.1);
+    color: rgba(var(--text-primary-color), 0.1);
     border: none;
     border-top: 1px solid;
     margin: 40px 0 20px;
@@ -33,11 +33,10 @@ main {
 
 .resources-title {
     @include font-base-format(2rem, 400, 1.5);
-
 }
 
 .resources-desc {
-    color: rgba($text-primary-color, 0.4)
+    color: rgba(var(--text-primary-color), 0.4);
 }
 
 .links-container {
@@ -55,12 +54,12 @@ section {
 
     .link-list {
         @include font-base-format(1.1rem, 400, 2.2);
-        color: rgba($text-primary-color, 0.7);
+        color: var(--text-primary-color-opacity-07);
         letter-spacing: .5px;
         padding: 30px;
         border-radius: 10px;
         list-style: none;
-        background-color: $components-background-color;
+        background-color: var(--components-background-color);
     }
 }
 
@@ -100,4 +99,3 @@ section {
         color: white;
     }
 }
-

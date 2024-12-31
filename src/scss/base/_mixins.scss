@@ -1,5 +1,5 @@
 @mixin links-base-format{
-    color: $link-primary-color;
+    color: var(--link-primary-color);
     text-decoration: none;
 }
 
@@ -7,6 +7,14 @@
     font-size: $font-size;
     font-weight: $font-weight;
     line-height: $line-height;
+}
+
+@mixin button-base-format() {
+    color: var(--text-primary-color-opacity-07);
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 @mixin flex-row{

@@ -1,5 +1,5 @@
 header {
-    background-color: $components-background-color;
+    background-color: var(--components-background-color);
     padding: $header-footer-side-padding;
     @include flex-space-between;
     align-items: center;
@@ -10,7 +10,7 @@ header {
             @include font-base-format;
             font-family: $title-font;
             font-size: 1.2em;
-            color: $text-primary-color;
+            color: var(--text-primary-color);
 
             @include flex-center;
             gap: 10px;
@@ -27,14 +27,21 @@ header {
         background-color: #c93d1a;
     }
 
+    hr {
+        height: 30px;
+        border: none;
+        border-left: 1px solid var(--text-primary-color-opacity-07)
+    }
+
     .header-right-side {
         @include flex-center;
         gap: 20px;
 
-        hr {
-            height: 30px;
-            border: none;
-            border-left: 1px solid rgba($text-primary-color, 0.4);
+ 
+
+        .theme-toggle {
+            @include button-base-format;
+            font-size: 1.5em;
         }
 
         .socials {
@@ -44,22 +51,22 @@ header {
                 @include links-base-format;
                 @include font-base-format;
                 font-size: 1.5em;
-                color: rgba($text-primary-color, 0.7);
+                color: var(--text-primary-color-opacity-07);
             }
         }
     }
 
     input {
-        color: $text-primary-color;
+        color: var(--text-primary-color);
         padding: 10px;
         border: none;
         border-radius: 5px;
         width: 20vw;
-        background-color: $background-color;
+        background-color: var(--background-color);
         transition: all .2s ease;
 
         &:focus {
-            outline: 1px solid rgba($text-primary-color, 0.4);
+            outline: 1px solid rgba(var(--text-primary-color), 0.4);
             width: 30vw;
         }
     }

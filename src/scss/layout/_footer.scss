@@ -2,7 +2,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    color: rgba($text-primary-color, 0.7);
+    color: var(--text-primary-color-opacity-07);
     padding: $header-footer-side-padding;
-    background-color: $components-background-color;
+    background-color: vaR(--components-background-color);
 }

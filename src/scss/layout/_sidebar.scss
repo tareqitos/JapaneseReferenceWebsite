@@ -38,28 +38,28 @@
 
 
 .navbar-item .active a {
-    color: $text-primary-color;
+    color: var(--text-primary-color);
 }
 
 .navbar-item {
 
     a {
         @include links-base-format;
-        color: rgba($text-primary-color, 0.2);
+        color: rgba(var(--text-primary-color), 0.2);
         position: relative;
 
         transition: all .2s ease;
 
 
         &.active {
-            color: $text-primary-color;
+            color: var(--text-primary-color);
 
             &::before {
                 content: '';
                 width: 2px;
                 position: absolute;
                 height: 20px;
-                background-color: rgb(255, 255, 255);
+                background-color: var(--text-primary-color);
                 left: -12px;
                 border-radius: 5px;
                 top: 0;
@@ -79,8 +79,8 @@
     right: 2rem;
     border: none;
     border-radius: 5px;
-    color: rgba($text-primary-color, 0.7);
-    background-color: $components-background-color;
+    color: var(--text-primary-color-opacity-07);
+    background-color: var(--components-background-color);
     cursor: pointer;
 }
 
@@ -103,10 +103,10 @@
     }
 
     .navbar {
-        background-color: $components-background-color;
+        background-color: var(--components-background-color);
         height: 100vh;
         border-radius: unset;
-        border-left: 1px solid rgba($text-primary-color, 0.1);
+        border-left: 1px solid rgba(var(--text-primary-color), 0.1);
         align-items: unset;
         z-index: 100;
         width: 300px;
@@ -120,10 +120,7 @@
         }
 
         hr {
-            opacity: .2;
-            height: 23%
+            display: none;
         }
     }
-
-
 }

@@ -1,0 +1,80 @@
+html {
+    color: $text-primary-color-light;
+    background-color: $background-color-light;
+}
+
+// Header
+
+header {
+    background-color: $components-background-color-light;
+
+    .title {
+        a {
+            color: $text-primary-color-light;
+        }
+    }
+
+    .header-right-side {
+        hr {
+            border-left: 1px solid rgba($text-primary-color-light, 0.4);
+        }
+
+        .socials {
+            a {
+                color: $text-primary-color-light
+            }
+        }
+    }
+
+    input {
+        color: $text-primary-color-light;
+        background-color: $background-color-light;
+
+        &:focus {
+            outline: 1px solid rgba($text-primary-color-light, .4);
+        }
+    }
+}
+
+// Footer
+
+footer {
+    color: $text-primary-color-opacity-07-light;
+    background-color: $components-background-color-light;
+}
+
+
+// Sidebar
+
+.navbar-item .active a {
+    color: $text-primary-color-light;
+}
+
+
+.navbar-item {
+    a {
+        color: rgba($text-primary-color-light, 0.2);
+        &.active {
+            color: $text-primary-color-light;
+
+            &::before {
+                background-color: rgb(26, 26, 26);
+            }
+        }
+    }
+}
+
+// Modal
+
+.sidebar-btn {
+    color: $text-primary-color-opacity-07-light;
+    background-color: $components-background-color-light;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar {
+        background-color: $components-background-color-light;
+        border-left: 1px solid rgba($text-primary-color-light, 0.1);
+    }
+}

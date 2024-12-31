@@ -5,14 +5,11 @@
 }
 
 html {
-    color: $text-primary-color;
-    background-color: $background-color;
+    color: var(--text-primary-color);
+    background-color: var(--background-color);
     font-family: $nunito-font;
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
-
-body {
     @include flex-column;
     height: 100vh;
 }
