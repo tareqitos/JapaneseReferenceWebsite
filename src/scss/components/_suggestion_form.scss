@@ -1,0 +1,21 @@
+.btn {
+    padding: 10px;
+    border-radius: 8px;
+    color: #78B3E2;
+    border: 1px solid #78B3E2;
+    background-color: #17191D;
+    cursor: pointer;
+}
+
+.send-suggestion-container {
+    background: #17191D;
+    width: fit-content;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+
+.send-suggestion-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
