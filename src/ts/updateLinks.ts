@@ -19,10 +19,13 @@ export const updateLinks = (filtered_links: Link[]) => {
         const empty_list_message = document.createElement("p")
         empty_list_message.classList.add('empty-list-message');
         empty_list_message.innerHTML = 'No results for ' + input_field.value;
+        document.querySelector('footer').style.position = 'absolute';
 
         links_container.appendChild(empty_list_message);
         return;
     }
+
+    document.querySelector('footer').style.position = 'relative';
 
     const fragment = document.createDocumentFragment();
 

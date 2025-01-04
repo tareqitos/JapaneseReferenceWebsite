@@ -5,12 +5,15 @@ header {
     align-items: center;
 
     .title {
+        flex-grow: 1;
+
         a {
             @include links-base-format;
             @include font-base-format;
             font-family: $title-font;
             font-size: 1.2em;
             color: var(--text-primary-color);
+            width: fit-content;
 
             @include flex-center;
             gap: 10px;
@@ -33,29 +36,6 @@ header {
         border-left: 1px solid var(--text-primary-color-opacity-07)
     }
 
-    .header-right-side {
-        @include flex-center;
-        gap: 20px;
-
- 
-
-        .theme-toggle {
-            @include button-base-format;
-            font-size: 1.5em;
-        }
-
-        .socials {
-            @include flex-row;
-            gap: 10px;
-            a {
-                @include links-base-format;
-                @include font-base-format;
-                font-size: 1.5em;
-                color: var(--text-primary-color-opacity-07);
-            }
-        }
-    }
-
     input {
         color: var(--text-primary-color);
         padding: 10px;
@@ -69,5 +49,33 @@ header {
             outline: 1px solid rgba(var(--text-primary-color), 0.4);
             width: 30vw;
         }
+    }
+
+
+}
+
+.header-right-side {
+    @include flex-center;
+    gap: 20px;
+
+    .theme-toggle {
+        @include button-base-format;
+        font-size: 1.3em;
+    }
+
+    .socials {
+        @include flex-row;
+        gap: 10px;
+
+        a {
+            @include links-base-format;
+            @include font-base-format;
+            font-size: 1.3em;
+            color: var(--text-primary-color-opacity-07);
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        display: none;
     }
 }

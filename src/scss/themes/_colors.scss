@@ -1,35 +1,3 @@
-// Night mode colors
-
-$background-color: rgb(33, 37, 41);
-$components-background-color: rgb(23, 25, 28);
-
-$text-primary-color: rgb(255, 255, 255);
-$link-primary-color: rgb(120, 179, 226);
-$text-primary-color-opacity-07: rgba($text-primary-color, .7);
-
-// Light mode colors
-$background-color-light: rgb(255, 255, 255);
-$components-background-color-light: rgb(245, 245, 245);
-$text-primary-color-light: rgb(0, 0, 0);
-$link-primary-color-light: rgb(0, 122, 204);
-$text-primary-color-opacity-07-light: rgba($text-primary-color-light, .7);
-
-html[data-theme= "light"] {
-    --background-color: #{$background-color-light};
-    --components-background-color: #{$components-background-color-light};
-    --text-primary-color: #{$text-primary-color-light};
-    --link-primary-color: #{$link-primary-color-light};
-    --text-primary-color-opacity-07: #{$text-primary-color-opacity-07-light};
-}
-
-html[data-theme= "dark"] {
-    --background-color: #{$background-color};
-    --components-background-color: #{$components-background-color};
-    --text-primary-color: #{$text-primary-color};
-    --link-primary-color: #{$link-primary-color};
-    --text-primary-color-opacity-07: #{$text-primary-color-opacity-07};
-}
-
 // Categories colors
 
 $beginner-color: rgb(232, 59, 42);
@@ -41,3 +9,70 @@ $reading-color: rgb(207, 132, 36);
 $miscellaneous-color: rgb(176, 71, 176);
 $app-color: rgb(13, 174, 156);
 
+
+// Night mode colors
+
+$background-color: rgb(33, 37, 41);
+$components-background-color: rgb(23, 25, 28);
+$text-primary-color: rgb(255, 255, 255);
+$link-primary-color: rgb(120, 179, 226);
+$text-primary-color-opacity-07: rgba($text-primary-color, .7);
+$text-primary-color-opacity-04: rgba($text-primary-color, .4);
+$link-icon-color: rgb(255, 255, 255);
+
+
+// Light mode colors
+$background-color-light: rgb(255, 255, 255);
+$components-background-color-light: rgb(245, 245, 245);
+$text-primary-color-light: rgb(0, 0, 0);
+$link-primary-color-light: rgb(0, 122, 204);
+$text-primary-color-opacity-07-light: rgba($text-primary-color-light, .7);
+$text-primary-color-opacity-04-light: rgba($text-primary-color-light, .4);
+
+@each $icon, $color in (fa-flag-checkered: $beginner-color,
+    fa-book: $dictionary-color,
+    fa-spell-check: $grammar-color,
+    fa-language: $vocabulary-color,
+    fa-book-open: $reading-color,
+    fa-bookmark: $miscellaneous-color,
+    fa-microchip: $app-color ) {
+    .#{$icon} {
+        color: $color;
+        text-shadow: 0 0 0px $color;
+    }
+}
+
+@each $icon, $color in (fa-flag-checkered: $beginner-color,
+    fa-book: $dictionary-color,
+    fa-spell-check: $grammar-color,
+    fa-language: $vocabulary-color,
+    fa-book-open: $reading-color,
+    fa-bookmark: $miscellaneous-color,
+    fa-microchip: $app-color ) {
+    html[data-theme="light"] .#{$icon} {
+        color: $color;
+        text-shadow: 0 0 0px $color;
+    }
+}
+
+
+
+html[data-theme="light"] {
+    --background-color: #{$background-color-light};
+    --components-background-color: #{$components-background-color-light};
+    --text-primary-color: #{$text-primary-color-light};
+    --link-primary-color: #{$link-primary-color-light};
+    --text-primary-color-opacity-07: #{$text-primary-color-opacity-07-light};
+    --text-primary-color-opacity-04: #{$text-primary-color-opacity-04-light};
+
+}
+
+html[data-theme="dark"] {
+    --background-color: #{$background-color};
+    --components-background-color: #{$components-background-color};
+    --text-primary-color: #{$text-primary-color};
+    --link-primary-color: #{$link-primary-color};
+    --text-primary-color-opacity-07: #{$text-primary-color-opacity-07};
+    --text-primary-color-opacity-04: #{$text-primary-color-opacity-04};
+    --links-icon-drop-shadow-color: #{$text-primary-color};
+}

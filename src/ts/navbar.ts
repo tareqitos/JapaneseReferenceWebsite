@@ -41,7 +41,9 @@ export function handleSidebar() {
     const sidebar_button_close = document.querySelector('.close') as HTMLButtonElement;
     const sidebar = document.querySelector('.sidebar-main') as HTMLDivElement;
 
-    const handleSidebarToggle = (event: { preventDefault: () => void; }) => {
+    const handleSidebarToggle = (event) => {
+        event.preventDefault();
+
         if (!sidebar.classList.contains('active')) {
             setTimeout(() => {
                 sidebar.classList.toggle('active');
@@ -59,5 +61,12 @@ export function handleSidebar() {
 
     sidebar_button_open.addEventListener("click", handleSidebarToggle);
     sidebar_button_close.addEventListener("click", handleSidebarToggle);
-}
 
+    document.body.addEventListener('click', (event) => {
+        if (sidebar.classList.contains('active')) {
+            if (event.target !== sidebar && !sidebar.contains(event.target as Node)) {
+                sidebar.classList.remove('active');
+            }
+        }
+    })
+}

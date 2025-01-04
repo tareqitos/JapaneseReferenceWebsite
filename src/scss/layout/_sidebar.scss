@@ -84,6 +84,13 @@
     cursor: pointer;
 }
 
+// Links / Theme toggle
+
+.sidebar-external-links {
+    display: none;
+    padding: 0 20px;
+}
+
 @media screen and (max-width: 1200px) {
     .sidebar-btn-container {
         display: block;
@@ -97,19 +104,21 @@
         bottom: 0;
         transform: translateX(100%);
 
+        border-left: 1px solid var(--text-primary-color-opacity-04);
+        background-color: var(--components-background-color);
+        height: 100vh;
+        z-index: 100;
+        width: 300px;
+
         &.active {
             transform: translateX(0);
         }
     }
 
     .navbar {
-        background-color: var(--components-background-color);
-        height: 100vh;
+        
         border-radius: unset;
-        border-left: 1px solid rgba(var(--text-primary-color), 0.1);
         align-items: unset;
-        z-index: 100;
-        width: 300px;
         top: 0;
 
         .close {
@@ -122,5 +131,25 @@
         hr {
             display: none;
         }
+    }
+
+    .sidebar-external-links {
+        @include flex-column;
+        justify-content: left;
+        
+    }
+    
+    .theme-toggle-sidebar {
+        @include button-base-format;
+        font-size: 1.3em;
+        text-align: left;
+        background: var(--background-color);
+        padding: 10px 20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .socials-sidebar{
+        justify-content: center; 
     }
 }
