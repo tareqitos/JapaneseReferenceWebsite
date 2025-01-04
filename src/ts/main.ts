@@ -23,7 +23,7 @@ const fetchAndInitializeLinks = async () => {
         waiting_for_response.innerText = 'Loading links...';
         links_container.appendChild(waiting_for_response);
 
-        const response = await fetch("./assets/json/links.json");
+        const response = await fetch("./src/assets/json/links.json");
         const result = await response.json();
         links = result;
 
@@ -32,6 +32,7 @@ const fetchAndInitializeLinks = async () => {
         return result;
     } catch (err) {
         waiting_for_response.innerText = 'Failed to load links. Please try again later.';
+        document.querySelector('footer').style.position = 'absolute';
         console.error("Error: " + err);
     }
 };
