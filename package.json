@@ -4,6 +4,7 @@
     "scss": "^0.2.4"
   },
   "devDependencies": {
-    "@types/aos": "^3.0.7"
+    "@types/aos": "^3.0.7",
+    "typescript": "^5.7.2"
   }
 }
