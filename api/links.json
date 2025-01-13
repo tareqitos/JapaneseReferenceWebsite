@@ -1,0 +1,611 @@
+{
+  "beginner": [
+    {
+      "id": 1,
+      "name": "10ten Japanese Reader",
+      "description": "Enhance your reading with this translating browser extension.",
+      "link": "https://github.com/birchill/10ten-ja-reader/",
+      "category": "beginner"
+    },
+    {
+      "id": 2,
+      "name": "Anki",
+      "description": "Ace any subject with this powerful flashcard app.",
+      "link": "https://apps.ankiweb.net/",
+      "category": "beginner"
+    },
+    {
+      "id": 3,
+      "name": "Irodori Japanese Textbook",
+      "description": "Master daily communication with this resource.",
+      "link": "https://www.irodori.jpf.go.jp/en/index.html",
+      "category": "beginner"
+    },
+    {
+      "id": 4,
+      "name": "Kurumi Kanji Search",
+      "description": "Find kanji readings and meanings easily.",
+      "link": "https://kurumi.com/jp/kjbh/?k=%E6%9C%AC",
+      "category": "beginner"
+    },
+    {
+      "id": 5,
+      "name": "Kanji Jump",
+      "description": "Explore kanji by radicals and structure.",
+      "link": "https://www.kanjijump.com/browse/atomic",
+      "category": "beginner"
+    },
+    {
+      "id": 6,
+      "name": "Guide to Japanese",
+      "description": "Your go-to guide for grammar and basics.",
+      "link": "https://guidetojapanese.org/learn/",
+      "category": "beginner"
+    }
+  ],
+  "dictionary": [
+    {
+      "id": 1,
+      "name": "10ten Japanese Reader",
+      "description": "Enhance your reading with this translating browser extension.",
+      "link": "https://github.com/birchill/10ten-ja-reader/",
+      "category": "dictionary"
+    },
+    {
+      "id": 2,
+      "name": "DeepL Translator",
+      "description": "Accurate translations between languages.",
+      "link": "https://www.deepl.com/en/translator#",
+      "category": "dictionary"
+    },
+    {
+      "id": 3,
+      "name": "GeekyDic",
+      "description": "User-friendly online dictionary.",
+      "link": "https://emilekroeger.github.io/geekydic/app/index.html#/",
+      "category": "dictionary"
+    },
+    {
+      "id": 4,
+      "name": "JLect",
+      "description": "Explore dialects and regional vocabulary.",
+      "link": "https://www.jlect.com/",
+      "category": "dictionary"
+    },
+    {
+      "id": 5,
+      "name": "Jisho",
+      "description": "Powerful dictionary with detailed explanations.",
+      "link": "http://www.jisho.org/",
+      "category": "dictionary"
+    },
+    {
+      "id": 6,
+      "name": "Jotoba",
+      "description": "Multilingual dictionary with context.",
+      "link": "https://jotoba.de/",
+      "category": "dictionary"
+    },
+    {
+      "id": 7,
+      "name": "Kanjisho",
+      "description": "Kanji-focused dictionary with readings and stroke order.",
+      "link": "https://www.kanjisho.com/",
+      "category": "dictionary"
+    },
+    {
+      "id": 8,
+      "name": "Jisho (Hlorenzi)",
+      "description": "Alternative Jisho interface with added features.",
+      "link": "https://jisho.hlorenzi.com/",
+      "category": "dictionary"
+    },
+    {
+      "id": 9,
+      "name": "Onomato Project",
+      "description": "Explore onomatopoeia with examples.",
+      "link": "https://onomatoproject.com/",
+      "category": "dictionary"
+    },
+    {
+      "id": 10,
+      "name": "PokeJisho",
+      "description": "Pokémon-themed dictionary.",
+      "link": "https://www.pokejisho.com/en/jisho/",
+      "category": "dictionary"
+    },
+    {
+      "id": 11,
+      "name": "Takoboto",
+      "description": "Offline dictionary with kanji lookup.",
+      "link": "https://takoboto.jp/",
+      "category": "dictionary"
+    },
+    {
+      "id": 12,
+      "name": "Weblio Thesaurus",
+      "description": "Find synonyms and related words.",
+      "link": "https://thesaurus.weblio.jp/",
+      "category": "dictionary"
+    },
+    {
+      "id": 13,
+      "name": "Yomitan",
+      "description": "Translate text on webpages easily.",
+      "link": "https://github.com/themoeway/yomitan",
+      "category": "dictionary"
+    },
+    {
+      "id": 14,
+      "name": "Goo Dictionary",
+      "description": "Comprehensive dictionary with examples.",
+      "link": "https://dictionary.goo.ne.jp/",
+      "category": "dictionary"
+    },
+    {
+      "id": 15,
+      "name": "Kotobank",
+      "description": "Dictionary aggregator with multiple sources.",
+      "link": "https://kotobank.jp/",
+      "category": "dictionary"
+    },
+    {
+      "id": 16,
+      "name": "Jitenon Kanji Dictionary",
+      "description": "Kanji dictionary with detailed character breakdowns.",
+      "link": "https://kanji.jitenon.jp/",
+      "category": "dictionary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "name": "Edewakaru",
+      "description": "Detailed explanations of grammar points.",
+      "link": "https://www.edewakaru.com/",
+      "category": "grammar"
+    },
+    {
+      "id": 2,
+      "name": "DJT Grammar Guide",
+      "description": "Extensive guide covering grammar in depth.",
+      "link": "https://djtarchive.neocities.org/bunpou/full_day",
+      "category": "grammar"
+    },
+    {
+      "id": 3,
+      "name": "Tanos JLPT Resources",
+      "description": "Grammar lists and practice materials for the JLPT.",
+      "link": "http://www.tanos.co.uk/jlpt/",
+      "category": "grammar"
+    },
+    {
+      "id": 4,
+      "name": "JLPT Grammar List",
+      "description": "Comprehensive list of JLPT grammar points.",
+      "link": "https://jlptgrammarlist.neocities.org/",
+      "category": "grammar"
+    },
+    {
+      "id": 5,
+      "name": "Kanji-Link",
+      "description": "Learn grammar and kanji with quizzes.",
+      "link": "https://www.kanji-link.com/fr/#",
+      "category": "grammar"
+    },
+    {
+      "id": 6,
+      "name": "Maggie Sensei",
+      "description": "Friendly lessons on grammar points.",
+      "link": "https://maggiesensei.com/",
+      "category": "grammar"
+    },
+    {
+      "id": 7,
+      "name": "Minato JF",
+      "description": "Online courses and resources, including grammar lessons.",
+      "link": "https://minato-jf.jp/",
+      "category": "grammar"
+    },
+    {
+      "id": 8,
+      "name": "Guide to Japanese",
+      "description": "Your go-to guide for grammar and basics.",
+      "link": "https://guidetojapanese.org/learn/",
+      "category": "grammar"
+    },
+    {
+      "id": 9,
+      "name": "Sakubi",
+      "description": "Minimalist guide to essential grammar.",
+      "link": "https://sakubi.neocities.org/",
+      "category": "grammar"
+    },
+    {
+      "id": 10,
+      "name": "IMABI",
+      "description": "Detailed grammar lessons for all levels.",
+      "link": "https://www.imabi.org/",
+      "category": "grammar"
+    },
+    {
+      "id": 11,
+      "name": "Nihongo no Sensei",
+      "description": "Grammar explanations and practice for JLPT N4 and N5.",
+      "link": "https://nihongonosensei.net/?page_id=10246#linkn4n5",
+      "category": "grammar"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": 1,
+      "name": "Shared Anki Decks",
+      "description": "Anki decks for vocabulary and kanji.",
+      "link": "https://ankiweb.net/shared/info/457148655?cb=1717343711197",
+      "category": "vocabulary"
+    },
+    {
+      "id": 2,
+      "name": "Bret Mayer's Kanji Resource",
+      "description": "Kanji resources for structured practice and lists.",
+      "link": "http://www.bretmayer.com/kanji.html",
+      "category": "vocabulary"
+    },
+    {
+      "id": 3,
+      "name": "Genkoyoushi Paper Generator",
+      "description": "Create manuscript paper for kanji practice.",
+      "link": "https://www.incompetech.com/graphpaper/genkoyoushi/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 4,
+      "name": "Hinoki Project",
+      "description": "Computational linguistics and vocabulary learning.",
+      "link": "https://hinoki-project.org/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 5,
+      "name": "Japanese Graph",
+      "description": "Practice kanji and vocabulary with visualizations.",
+      "link": "https://japanesegraph.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 6,
+      "name": "Wikibooks Linguistics Vocabulary",
+      "description": "Vocabulary list for linguistics terms.",
+      "link": "https://en.m.wikibooks.org/wiki/Japanese/Vocabulary/Linguistics",
+      "category": "vocabulary"
+    },
+    {
+      "id": 7,
+      "name": "Kurumi Kanji Search",
+      "description": "Kanji search tool to build vocabulary.",
+      "link": "https://kurumi.com/jp/kjbh/?k=%E6%9C%AC",
+      "category": "vocabulary"
+    },
+    {
+      "id": 8,
+      "name": "Koohii Kanji Review",
+      "description": "Community-driven kanji and vocabulary learning.",
+      "link": "https://kanji.koohii.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 9,
+      "name": "Kanji Practice",
+      "description": "Interactive platform for kanji and vocabulary.",
+      "link": "https://kanjipractice.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 10,
+      "name": "Kanji by Stroke Order",
+      "description": "Learn kanji stroke order through writing practice.",
+      "link": "https://kanji.sljfaq.org/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 11,
+      "name": "KotobaBot",
+      "description": "Chatbot for practicing vocabulary.",
+      "link": "https://kotobaweb.com/bot",
+      "category": "vocabulary"
+    },
+    {
+      "id": 12,
+      "name": "Niai - Similar Vocabulary",
+      "description": "Explore similar words.",
+      "link": "https://niai.mrahhal.net/similar",
+      "category": "vocabulary"
+    },
+    {
+      "id": 13,
+      "name": "WaniKani",
+      "description": "Learn kanji and vocabulary with mnemonics.",
+      "link": "https://www.wanikani.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 14,
+      "name": "Kotowaza",
+      "description": "Learn proverbs and cultural insights.",
+      "link": "https://kotowaza.co.uk/index.php",
+      "category": "vocabulary"
+    },
+    {
+      "id": 15,
+      "name": "Mainichi Kanji",
+      "description": "Daily kanji practice to build vocabulary.",
+      "link": "https://mainichikanji.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 16,
+      "name": "Yomikatawa",
+      "description": "Learn vocabulary and kanji readings.",
+      "link": "https://yomikatawa.com/",
+      "category": "vocabulary"
+    },
+    {
+      "id": 17,
+      "name": "Kanjipedia",
+      "description": "Comprehensive kanji dictionary with examples.",
+      "link": "https://www.kanjipedia.jp/howto/about.html",
+      "category": "vocabulary"
+    },
+    {
+      "id": 18,
+      "name": "Kotoba no Gakko",
+      "description": "Vocabulary acquisition and insights.",
+      "link": "https://site.kotobanogakko.com/special/",
+      "category": "vocabulary"
+    }
+  ],
+  "reading": [
+    {
+      "id": 1,
+      "name": "Dokusho Club",
+      "description": "Reading club for learners.",
+      "link": "https://dokushoclub.com/",
+      "category": "reading"
+    },
+    {
+      "id": 2,
+      "name": "Mangaz",
+      "description": "Read manga online.",
+      "link": "https://www.mangaz.com/",
+      "category": "reading"
+    },
+    {
+      "id": 3,
+      "name": "Learn Natively",
+      "description": "Find books for your reading level.",
+      "link": "https://learnnatively.com/",
+      "category": "reading"
+    },
+    {
+      "id": 4,
+      "name": "Satori Reader",
+      "description": "Read and listen to stories.",
+      "link": "https://www.satorireader.com/",
+      "category": "reading"
+    },
+    {
+      "id": 5,
+      "name": "Tadoku",
+      "description": "Free graded readers for learners.",
+      "link": "https://tadoku.org/japanese/en/free-books-en/",
+      "category": "reading"
+    },
+    {
+      "id": 6,
+      "name": "YomuYomu",
+      "description": "Read books online.",
+      "link": "https://yomuyomu.app/",
+      "category": "reading"
+    },
+    {
+      "id": 7,
+      "name": "YomuJP",
+      "description": "Read texts with translations.",
+      "link": "https://yomujp.com/",
+      "category": "reading"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "id": 1,
+      "name": "Google Sheets JLPT",
+      "description": "Comprehensive JLPT study resources.",
+      "link": "https://docs.google.com/spreadsheets/d/15ELElkomfixdS4-dNrpxrNl14mlJUZrdD0h7N6iEE2k/edit?gid=1386920750#gid=1386920750",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 2,
+      "name": "Japanese Discord",
+      "description": "Join the community for language practice.",
+      "link": "https://discord.gg/japanese",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 3,
+      "name": "Free Japanese Font",
+      "description": "Download free fonts.",
+      "link": "https://www.freejapanesefont.com/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 4,
+      "name": "Unagibun JLPT Online",
+      "description": "Online resources for JLPT preparation.",
+      "link": "https://www.unagibun.com/jlpt-online/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 5,
+      "name": "Japanese Wiki",
+      "description": "Explore various topics.",
+      "link": "https://www.japanesewiki.com/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 6,
+      "name": "Kaiwa Kai",
+      "description": "Practice conversation skills.",
+      "link": "https://www.kaiwakai.com/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 7,
+      "name": "Learn Japanese Reddit",
+      "description": "Community for learners.",
+      "link": "https://www.reddit.com/r/LearnJapanese/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 8,
+      "name": "LangPractice",
+      "description": "Language practice platform.",
+      "link": "https://langpractice.com/japanese/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 9,
+      "name": "Otokake",
+      "description": "Music and lyrics resource.",
+      "link": "https://otokake.com/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 10,
+      "name": "SuperNative",
+      "description": "Improve listening skills.",
+      "link": "https://supernative.tv/",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 11,
+      "name": "Kuzuri Resources",
+      "description": "Collection of useful resources.",
+      "link": "https://kuzuri.neocities.org/resources",
+      "category": "miscellaneous"
+    },
+    {
+      "id": 12,
+      "name": "Rondely English Terms",
+      "description": "Glossary of English terms.",
+      "link": "https://rondely.com/EigoYogo/irir/iti.htm",
+      "category": "miscellaneous"
+    }
+  ],
+  "application": [
+    {
+      "id": 1,
+      "name": "Aedict",
+      "description": "Comprehensive dictionary app.",
+      "link": "http://aedict.eu/",
+      "category": "application"
+    },
+    {
+      "id": 2,
+      "name": "Anki",
+      "description": "Powerful flashcard app for studying.",
+      "link": "https://apps.ankiweb.net/",
+      "category": "application"
+    },
+    {
+      "id": 3,
+      "name": "Kanji Benkyō",
+      "description": "Learn kanji with this app.",
+      "link": "https://apps.apple.com/us/app/learn-japanese-kanji-benky%C5%8D/id1541592138?ct=https%3A%2F%2Findiecatalog.app",
+      "category": "application"
+    },
+    {
+      "id": 4,
+      "name": "Bunpro",
+      "description": "Grammar study platform.",
+      "link": "https://bunpro.jp/",
+      "category": "application"
+    },
+    {
+      "id": 5,
+      "name": "Kana",
+      "description": "Learn hiragana and katakana.",
+      "link": "https://apps.apple.com/us/app/kana-hiragana-and-katakana/id1454200955?ct=https%3A%2F%2Findiecatalog.app",
+      "category": "application"
+    },
+    {
+      "id": 6,
+      "name": "Jotoba",
+      "description": "Multilingual dictionary app.",
+      "link": "https://play.google.com/store/apps/details?id=com.jotoba.mobile",
+      "category": "application"
+    },
+    {
+      "id": 7,
+      "name": "Kaku",
+      "description": "Handwriting recognition app.",
+      "link": "https://kaku.fuwafuwa.ca/",
+      "category": "application"
+    },
+    {
+      "id": 8,
+      "name": "Quizlet",
+      "description": "Study with flashcards and games.",
+      "link": "https://quizlet.com/",
+      "category": "application"
+    },
+    {
+      "id": 9,
+      "name": "Renshuu",
+      "description": "Practice vocabulary and grammar.",
+      "link": "https://www.renshuu.org/",
+      "category": "application"
+    },
+    {
+      "id": 10,
+      "name": "Sensei",
+      "description": "Learn with interactive lessons.",
+      "link": "https://apps.apple.com/us/app/learn-japanese-sensei/id1495789984?ct=https%3A%2F%2Findiecatalog.app",
+      "category": "application"
+    },
+    {
+      "id": 11,
+      "name": "Shirabe Jisho",
+      "description": "Dictionary app with kanji lookup.",
+      "link": "https://apps.apple.com/app/shirabe-jisho/id1005203380",
+      "category": "application"
+    },
+    {
+      "id": 12,
+      "name": "Tachiyomi",
+      "description": "Manga reader app.",
+      "link": "https://tachiyomi.org/",
+      "category": "application"
+    },
+    {
+      "id": 13,
+      "name": "Takoboto",
+      "description": "Offline dictionary app.",
+      "link": "https://takoboto.jp/apps/",
+      "category": "application"
+    },
+    {
+      "id": 14,
+      "name": "Ringotan",
+      "description": "Learn kanji with mnemonics.",
+      "link": "https://www.ringotan.com/",
+      "category": "application"
+    },
+    {
+      "id": 15,
+      "name": "Voracious",
+      "description": "Improve reading and listening skills.",
+      "link": "https://voracious.app/",
+      "category": "application"
+    }
+  ]
+}
