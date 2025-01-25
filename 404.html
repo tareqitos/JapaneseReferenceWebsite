@@ -8,7 +8,7 @@
   <script>
     // Redirect to index.html to handle routing with React Router
     var redirectTo = window.location.pathname + window.location.search;
-    window.location.replace("/#" + redirectTo);
+    window.location.replace("/?redirect=" + encodeURIComponent(redirectTo));
   </script>
 </head>
 
